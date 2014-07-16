@@ -7,7 +7,7 @@ class Complement
       new_strand << "A" if nucleotides == "T"
       new_strand << "U" if nucleotides == "A"
     end
-   new_strand
+    new_strand
   end
 
   def self.of_rna(strand)
@@ -18,6 +18,6 @@ class Complement
       new_strand << "A" if nucleotides == "U"
       new_strand << "T" if nucleotides == "A"
     end
-   new_strand
+    new_strand
   end
 end
